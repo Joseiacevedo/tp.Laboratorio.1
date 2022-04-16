@@ -2,8 +2,8 @@
 #define BIBLIOTECA_H_
 
 float PedirEntero(char mensaje[]);
-int ValidarOpcion(int numero);
-float ValidarEntero(char numero[]);
+int ValidarEntero(char numero[]);
+int ValidarOpcion(int numeroIngresado);
 float Debito(float num1);
 float Credito(float num1);
 float Bitcoin(float num1);
